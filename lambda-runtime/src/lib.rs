@@ -5,7 +5,7 @@
 //! The mechanism available for defining a Lambda function is as follows:
 //!
 //! Create a type that conforms to the [`tower::Service`] trait. This type can
-//! then be passed to the the `lambda_runtime::run` function, which launches
+//! then be passed to the `lambda_runtime::run` function, which launches
 //! and runs the Lambda runtime.
 use futures::FutureExt;
 use hyper::{
